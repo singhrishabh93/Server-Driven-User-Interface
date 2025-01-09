@@ -1,35 +1,122 @@
 {
-  "type": "scaffold",
-  "body": {
-    "type": "column",
-    "mainAxisAlignment": "center",
-    "crossAxisAlignment": "center",
-    "children": [
-      {
-        "type": "container",
-        "alignment": "center",
-        "child": {
-          "type": "text",
-          "data": "Static UI Example",
-          "style": {
-            "fontSize": 25,
-            "color": "#ff5733"
+    "type": "scaffold",
+    "body": {
+      "type": "column",
+      "mainAxisAlignment": "spaceAround",
+      "crossAxisAlignment": "center",
+      "children": [
+        {
+          "type": "container",
+          "alignment": "center",
+          "child": {
+            "type": "image",
+            "src": "assets/mirai_banner.png",
+            "imageType": "asset",
+            "height": 150
           }
+        },
+        {
+          "type": "column",
+          "crossAxisAlignment": "center",
+          "children": [
+            {
+              "type": "container",
+              "alignment": "center",
+              "child": {
+                "type": "text",
+                "data": "Rishabh Singh",
+                "style": {
+                  "fontSize": 25,
+                  "color": "#ff5733"
+                }
+              }
+            },
+            {
+              "type": "container",
+              "alignment": "center",
+              "child": {
+                "type": "text",
+                "data": "Flutter Developer",
+                "style": {
+                  "color": "#00a2f9",
+                  "fontSize": 20,
+                  "fontWeight": "w700"
+                }
+              }
+            },
+            {
+              "type": "container",
+              "alignment": "center",
+              "child": {
+                "type": "elevatedButton",
+                "onPressed": {
+                  "type": "action",
+                  "action": "print",
+                  "data": "Button Clicked"
+                },
+                "child": {
+                  "type": "text",
+                  "data": "Click Me",
+                  "style": {
+                    "color": "#FFFFFF",
+                    "fontSize": 16
+                  }
+                },
+                "style": {
+                  "backgroundColor": "#00a2f9",
+                  "minimumSize": {
+                    "width": 300,
+                    "height": 50
+                  },
+                  "shape": {
+                    "type": "roundedRectangle",
+                    "borderRadius": 30
+                  }
+                }
+              }
+            }
+          ]
         }
-      },
-      {
-        "type": "container",
-        "alignment": "center",
-        "child": {
-          "type": "text",
-          "data": "This is a static UI",
-          "style": {
-            "color": "#00a2f9",
-            "fontSize": 20,
-            "fontWeight": "w700"
-          }
+      ]
+    },
+    "bottomNavigationBar": {
+      "type": "bottomNavigationBar",
+      "backgroundColor": "#FFFFFF",
+      "selectedItemColor": "#000000",
+      "unselectedItemColor": "#888888",
+      "showSelectedLabels": true,
+      "showUnselectedLabels": true,
+      "items": [
+        {
+          "icon": {
+            "type": "icon",
+            "package": "material",
+            "name": "home"
+          },
+          "label": "Home"
+        },
+        {
+          "icon": {
+            "type": "icon",
+            "package": "material",
+            "name": "search"
+          },
+          "label": "Search"
+        },
+        {
+          "icon": {
+            "type": "icon",
+            "package": "material",
+            "name": "person"
+          },
+          "label": "Profile"
         }
+      ],
+      "currentIndex": 0,
+      "onTap": {
+        "type": "action",
+        "action": "navigate",
+        "data": "index"
       }
-    ]
+    }
   }
-}
