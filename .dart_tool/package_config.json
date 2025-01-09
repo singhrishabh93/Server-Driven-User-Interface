@@ -74,6 +74,12 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "http",
+      "rootUri": "file:///Users/sketch/.pub-cache/hosted/pub.dev/http-1.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
       "name": "http_parser",
       "rootUri": "file:///Users/sketch/.pub-cache/hosted/pub.dev/http_parser-4.0.2",
       "packageUri": "lib/",
@@ -206,13 +212,19 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "web",
+      "rootUri": "file:///Users/sketch/.pub-cache/hosted/pub.dev/web-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
       "name": "server_driven_ui_with_mirai",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2025-01-09T04:58:57.718477Z",
+  "generated": "2025-01-09T09:23:41.858243Z",
   "generator": "pub",
   "generatorVersion": "3.5.4",
   "flutterRoot": "file:///Users/sketch/Downloads/flutter",

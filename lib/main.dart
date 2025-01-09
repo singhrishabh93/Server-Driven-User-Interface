@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MiraiApp(
+      debugShowCheckedModeBanner: false,
       title: 'Mirai Demo',
       theme: MiraiTheme(primaryColor: "#00a2f9"),
       home: HomeScreen(),

@@ -38,6 +38,10 @@ freezed_annotation
 2.17
 file:///Users/sketch/.pub-cache/hosted/pub.dev/freezed_annotation-2.2.0/
 file:///Users/sketch/.pub-cache/hosted/pub.dev/freezed_annotation-2.2.0/lib/
+http
+3.3
+file:///Users/sketch/.pub-cache/hosted/pub.dev/http-1.2.2/
+file:///Users/sketch/.pub-cache/hosted/pub.dev/http-1.2.2/lib/
 http_parser
 2.12
 file:///Users/sketch/.pub-cache/hosted/pub.dev/http_parser-4.0.2/
@@ -122,6 +126,10 @@ vm_service
 3.3
 file:///Users/sketch/.pub-cache/hosted/pub.dev/vm_service-14.2.5/
 file:///Users/sketch/.pub-cache/hosted/pub.dev/vm_service-14.2.5/lib/
+web
+3.4
+file:///Users/sketch/.pub-cache/hosted/pub.dev/web-1.1.0/
+file:///Users/sketch/.pub-cache/hosted/pub.dev/web-1.1.0/lib/
 server_driven_ui_with_mirai
 2.19
 file:///Users/sketch/Downloads/Flutter_projects/server_driven_ui_with_mirai/
