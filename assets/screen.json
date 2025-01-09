@@ -62,9 +62,9 @@
               },
               "style": {
                 "backgroundColor": "#00a2f9",
-                "padding": {
-                  "horizontal": 20,
-                  "vertical": 10
+                "minimumSize": {
+                  "width": 300,
+                  "height": 50
                 }
               }
             }
@@ -75,10 +75,16 @@
   },
   "bottomNavigationBar": {
     "type": "bottomNavigationBar",
+    "backgroundColor": "#FFFFFF",
+    "selectedItemColor": "#000000",
+    "unselectedItemColor": "#888888",
+    "showSelectedLabels": true,
+    "showUnselectedLabels": true,
     "items": [
       {
         "icon": {
           "type": "icon",
+          "package": "material",
           "name": "home"
         },
         "label": "Home"
@@ -86,6 +92,7 @@
       {
         "icon": {
           "type": "icon",
+          "package": "material",
           "name": "search"
         },
         "label": "Search"
@@ -93,6 +100,7 @@
       {
         "icon": {
           "type": "icon",
+          "package": "material",
           "name": "person"
         },
         "label": "Profile"

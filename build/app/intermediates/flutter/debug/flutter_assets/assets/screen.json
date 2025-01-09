@@ -8,24 +8,23 @@
       {
         "type": "container",
         "alignment": "center",
-        "child" : {
+        "child": {
           "type": "image",
           "src": "assets/mirai_banner.png",
           "imageType": "asset",
           "height": 150
         }
       },
-
       {
         "type": "column",
         "crossAxisAlignment": "center",
-        "children":[
+        "children": [
           {
             "type": "container",
             "alignment": "center",
-            "child" : {
+            "child": {
               "type": "text",
-              "data": "Mohamed Abdo",
+              "data": "Rishabh Singh",
               "style": {
                 "fontSize": 25
               }
@@ -34,7 +33,7 @@
           {
             "type": "container",
             "alignment": "center",
-            "child" : {
+            "child": {
               "type": "text",
               "data": "Flutter Developer",
               "style": {
@@ -42,15 +41,68 @@
                 "fontSize": 20
               }
             }
+          },
+          {
+            "type": "container",
+            "alignment": "center",
+            "child": {
+              "type": "elevatedButton",
+              "onPressed": {
+                "type": "action",
+                "action": "print",
+                "data": "Button Clicked"
+              },
+              "child": {
+                "type": "text",
+                "data": "Click Me",
+                "style": {
+                  "color": "#FFFFFF",
+                  "fontSize": 16
+                }
+              },
+              "style": {
+                "backgroundColor": "#00a2f9",
+                "minimumSize": {
+                  "width": 300,
+                  "height": 50
+                }
+              }
+            }
           }
         ]
       }
     ]
+  },
+  "bottomNavigationBar": {
+    "type": "bottomNavigationBar",
+    "items": [
+      {
+        "icon": {
+          "type": "icon",
+          "name": "home"
+        },
+        "label": "Home"
+      },
+      {
+        "icon": {
+          "type": "icon",
+          "name": "search"
+        },
+        "label": "Search"
+      },
+      {
+        "icon": {
+          "type": "icon",
+          "name": "person"
+        },
+        "label": "Profile"
+      }
+    ],
+    "currentIndex": 0,
+    "onTap": {
+      "type": "action",
+      "action": "navigate",
+      "data": "index"
+    }
   }
 }
-
-
-
-
-
-
