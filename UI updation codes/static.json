@@ -1,0 +1,80 @@
+{
+    "type": "scaffold",
+    "body": {
+      "type": "column",
+      "mainAxisAlignment": "center",
+      "crossAxisAlignment": "center",
+      "children": [
+        {
+          "type": "container",
+          "alignment": "center",
+          "child": {
+            "type": "image",
+            "src": "assets/static_banner.png",
+            "imageType": "asset",
+            "height": 150
+          }
+        },
+        {
+          "type": "container",
+          "alignment": "center",
+          "child": {
+            "type": "text",
+            "data": "Static UI Example",
+            "style": {
+              "fontSize": 25,
+              "color": "#ff5733"
+            }
+          }
+        },
+        {
+          "type": "container",
+          "alignment": "center",
+          "child": {
+            "type": "text",
+            "data": "This is a static UI",
+            "style": {
+              "color": "#00a2f9",
+              "fontSize": 20,
+              "fontWeight": "w700"
+            }
+          }
+        },
+        {
+          "type": "container",
+          "alignment": "center",
+          "child": {
+            "type": "elevatedButton",
+            "onPressed": {
+              "type": "action",
+              "action": "print",
+              "data": "Static Button Clicked"
+            },
+            "child": {
+              "type": "text",
+              "data": "Static Button",
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": 16
+              }
+            },
+            "style": {
+              "backgroundColor": "#00a2f9",
+              "minimumSize": {
+                "width": 300,
+                "height": 50
+              },
+              "shape": {
+                "type": "roundedRectangle",
+                "borderRadius": 15,
+                "side": {
+                  "color": "#ff5733",
+                  "width": 2
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
